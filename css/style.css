@@ -79,7 +79,7 @@ h4 {
   grid-area: header-nav;
   -ms-grid-column-align: right;
       justify-self: right;
-  font-size: 200ox;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -364,7 +364,6 @@ table.iksweb {
 }
 
 table.iksweb th {
-  font-weight: 50px;
   font-size: 22px;
   color: #ffffff;
   background-color: #9B0921;
@@ -515,7 +514,6 @@ table.iksweb td, table.iksweb th {
   grid-area: message;
   -ms-flex-item-align: left;
       -ms-grid-row-align: left;
-      align-self: left;
   color: white;
   margin-left: 20px;
   font-size: 20px;
