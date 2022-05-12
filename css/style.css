@@ -79,7 +79,7 @@ h4 {
   grid-area: header-nav;
   -ms-grid-column-align: right;
       justify-self: right;
-  font-size: 200ox;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -130,6 +130,7 @@ h4 {
 
 .section2-text {
   margin-right: 20px;
+  margin-bottom: 20px;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: section2-text;
@@ -166,9 +167,6 @@ h4 {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: section2-text-download;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   text-transform: uppercase;
 }
 
@@ -176,18 +174,12 @@ h4 {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: section2-text-line;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .section2-text-line2 {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: section2-text-line2;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .section3 {
@@ -364,7 +356,6 @@ table.iksweb {
 }
 
 table.iksweb th {
-  font-weight: 50px;
   font-size: 22px;
   color: #ffffff;
   background-color: #9B0921;
@@ -557,9 +548,6 @@ input[name="message"] {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: message;
-  -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
   color: white;
   margin-left: 20px;
   font-size: 20px;
